@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <button id="playlist-button">Playlist</button>
+        </div>
+        <div class="main-content">
+            <div class="current-song">
+                <img id="song-image" src="" alt="" class="song-image">
+                <h2 id="song-title">No Song Selected</h2>
+                <audio id="audio" src=""></audio>
+            </div>
+            <div class="controls">
+                <button id="prev" class="control-btn"><i class="fas fa-backward"></i></button>
+                <button id="play" class="control-btn"><i class="fas fa-play"></i></button>
+                <button id="pause" class="control-btn"><i class="fas fa-pause"></i></button>
+                <button id="next" class="control-btn"><i class="fas fa-forward"></i></button>
+            </div>
+
+    
+            
+        
+            <div class="playlist hidden" id="playlist-container">
+                <ul id="playlist">
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
